@@ -1,5 +1,5 @@
 <?php
-echo 'Para incluir una comilla simple como esta \' hay que escribirla así \\\'';
+echo 'Para incluir una comilla \n \t simple como esta \' hay que escribirla así \\\'';
 echo '</br>';
 $var1 = true;
 $var2 = 3.90;
@@ -11,6 +11,9 @@ $varTexto = <<<EOS
                 retornos de linea $var3
                 EOS;
 echo "<pre>$varTexto</pre>";
-$jugo = 'manzana';
-echo "Él tomó algo de jugo de {$jugo}s.</br>";
-// echo "Él tomó algo de jugo de $jugos.";
+echo "<pre>sdfsdfdsf
+      sdfsdfsdf
+        sdfsdfsdf</pre>";
+$zumo = 'manzana';
+echo "Él tomó algo de zumo de {$zumo}s.</br>";
+echo "Él tomó algo de jugo de $zumos.";
